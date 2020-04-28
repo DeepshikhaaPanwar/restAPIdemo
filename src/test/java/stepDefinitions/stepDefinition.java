@@ -15,6 +15,8 @@ public class stepDefinition {
 	public void user_is_on_netbanking_login_page() throws Throwable {
 		// code to navigate to login page
 		System.out.println("navigated to login url");
+		System.out.println("swswsw");
+		System.out.println("swswcsw");
 
 	}
 
@@ -22,6 +24,7 @@ public class stepDefinition {
     public void user_enters_login_username_something_and_password_something(String strArg1, String strArg2) throws Throwable {
         System.out.println(strArg1);
         System.out.println(strArg2);
+        System.out.println("swssdswsw");
 
 	}
 
@@ -29,12 +32,14 @@ public class stepDefinition {
 	public void login_sucessful() throws Throwable {
 		// home page landed
 		System.out.println("Landed to homepage");
+		System.out.println("swcdcdcswsw");
 
 	}
 
     @And("^Cards are displayed \"([^\"]*)\"$")
     public void cards_are_displayed_something(String strArg1) throws Throwable {
         System.out.println(strArg1);
+        System.out.println("sdwdwwswsw");
 
 	}
 
