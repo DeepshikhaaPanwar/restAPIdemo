@@ -11,3 +11,4 @@ Given User is on netbanking login page
 When User enters login username "Peter" and password "test2"
 Then Login sucessful 
 And Cards are displayed "false"
+And Cards are displayed "false"
